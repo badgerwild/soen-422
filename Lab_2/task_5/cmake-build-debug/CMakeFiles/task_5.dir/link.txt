@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/task_5.dir/Queue.c.o CMakeFiles/task_5.dir/test_quque.c.o  -o task_5 

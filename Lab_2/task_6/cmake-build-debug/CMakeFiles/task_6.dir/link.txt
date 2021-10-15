@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/task_6.dir/TestQueue.cpp.o CMakeFiles/task_6.dir/Queue.c.o  -o task_6 

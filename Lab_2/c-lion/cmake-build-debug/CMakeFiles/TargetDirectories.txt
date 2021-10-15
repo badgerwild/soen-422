@@ -1,0 +1,3 @@
+/home/jason/collective/soen-422/Lab_2/c-lion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jason/collective/soen-422/Lab_2/c-lion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jason/collective/soen-422/Lab_2/c-lion/cmake-build-debug/CMakeFiles/c_lion.dir

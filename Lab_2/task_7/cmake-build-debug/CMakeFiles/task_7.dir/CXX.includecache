@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jason/collective/soen-422/Lab_2/task_7/Queue.cpp
+iostream
+-
+Queue.hpp
+/home/jason/collective/soen-422/Lab_2/task_7/Queue.hpp
+
+/home/jason/collective/soen-422/Lab_2/task_7/Queue.hpp
+

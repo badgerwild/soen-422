@@ -1,0 +1,3 @@
+/home/jason/collective/soen-422/Lab_2/task_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jason/collective/soen-422/Lab_2/task_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jason/collective/soen-422/Lab_2/task_5/cmake-build-debug/CMakeFiles/task_5.dir
