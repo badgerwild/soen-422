@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/task_4.dir/hal_MM_todo.c.o  -o task_4 
