@@ -23,6 +23,8 @@
 static     uint8_t   heap[HeapSize];
 static     uint16_t  nextp;
 
+//MY code here, Initialize the memory manager
+
 void hal_MM_Init(void) {
     uint16_t n;
     nextp = 0;
@@ -38,14 +40,14 @@ void hal_MM_Defrag(void) {
     // your code...
 }
 #endif
-
+// My Code free segment here
 void hal_MM_FreeSegment(void* ap) {
     uint16_t n = ((uint8_t*)ap -heap) /BlockSize;
     byteMap[n] = -byteMap[n];
 }
-
+// foward defintion
 void hal_MM_PrintByteMap(void); /* called by getSegment */
-
+// gets segments from the Memory manager
 void* hal_MM_GetSegment(uint16_t nBytes) {
     uint16_t segmentSize, n;
     // no idea if these types are right

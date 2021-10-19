@@ -4,26 +4,19 @@
 
 
 void main(void){
-
-	hal_Bargraph b = hal_Bargraph_New(3);
+// trsts a bar graph 
+	hal_Bargraph b = hal_Bargraph_New(3); // 0 based indexing so 3 = 4 leds
 
 	while(true){
-
+// bar graph on
 		for (uint8_t i = 0; i<= 3; ++i){
 			hal_Bargraph_Set(b, i);
 		}
-
+// bar graph off
 		for (uint8_t i = 0; i<=3;++i ){
 			hal_Bargraph_Clear(b, i);
 		}
 		
-
-		
 	}
-
-		
-//TODO get the other functions working in the test!!! and Get Macros working too!!
-
-
 
 }

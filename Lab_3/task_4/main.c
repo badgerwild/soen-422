@@ -2,6 +2,9 @@
 #include <stdint.h>
 #include "bsl_MM.h"
 #include "hal_MM.h"
+
+//Test file for what I have of my implementation, missingthe get address function so it is commented out here.
+//I didn't get to this in the lab, and unfortunatly we only had one lab for this assignment
 void hal_MM_PrintByteMap(void) {
     uint16_t n;
 

@@ -3,8 +3,8 @@
 #include <stdint.h>
 
 
-struct hal_BargraphDesc; // opaque types
-typedef struct hal_BargraphDesc* hal_Bargraph; // foward defintion
+struct hal_BargraphDesc; // opaque type
+typedef struct hal_BargraphDesc* hal_Bargraph; // foward defitntion
 
 hal_Bargraph hal_Bargraph_New(uint8_t numberOfLeds);
 void hal_Bargrah_init(hal_Bargraph _this, uint8_t numberOfLeds);
